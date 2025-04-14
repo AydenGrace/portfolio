@@ -1,0 +1,59 @@
+@keyframes float {
+  0% {
+    transform: translatey(10px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(10px);
+  }
+}
+
+@keyframes float-1 {
+  0% {
+    transform: translatey(-10px);
+  }
+  50% {
+    transform: translatey(10px);
+  }
+  100% {
+    transform: translatey(-10px);
+  }
+}
+
+@keyframes float-2 {
+  0% {
+    transform: translatey(0px);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translatey(0px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float-3 {
+  0% {
+    transform: translatey(0px);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translatey(0px);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}

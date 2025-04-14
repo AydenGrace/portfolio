@@ -1,0 +1,93 @@
+.btn {
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s opacity;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  border: 2px solid var(--primary);
+}
+
+.btn-reverse-primary {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  background-color: white;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: white;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.nav,
+.logo {
+  font-family: var(--title-font);
+  font-size: 20px;
+  cursor: pointer;
+  &:hover {
+    text-shadow: white 0 0 10px;
+  }
+}
+
+.nav {
+  color: var(--text-color) !important;
+}
+
+.index1 {
+  z-index: 1;
+}
+
+.bigTitle {
+  font-family: var(--title-font);
+  font-size: 128px;
+  color: var(--secondary);
+  font-weight: 400;
+  line-height: 117px;
+}
+
+.subTitle {
+  font-family: var(--title-font);
+  font-size: 40px;
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.separatorLine {
+  width: 75%;
+  height: 2px;
+  opacity: 0.5;
+  background-color: var(--secondary);
+  box-shadow: var(--secondary) 0 0 10px;
+}
+
+.separatorCenter {
+  display: flex;
+  // background-color: var(--primary);
+  border-radius: 100%;
+  box-shadow: var(--secondary-50) 0 0 10px;
+  padding: 15px;
+}
+
+.rotatedSeparatorCenter {
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--secondary);
+  box-shadow: var(--secondary) 0 0 10px;
+  transform: rotate(45deg);
+  p {
+    transform: rotate(-45deg);
+    font-family: var(--title-font);
+    font-size: 32px;
+    color: var(--text-color);
+  }
+}
