@@ -4,7 +4,7 @@ import About from "./components/About";
 
 export default function Landing() {
   return (
-    <div>
+    <div className="index-5">
       <Title></Title>
       <About></About>
     </div>

@@ -70,6 +70,15 @@
   box-shadow: var(--secondary) 0 0 10px;
 }
 
+.separatorSubline {
+  width: 170px;
+  height: 2px;
+  opacity: 0.5;
+  background-color: var(--secondary);
+  box-shadow: var(--secondary) 0 0 10px;
+  margin-bottom: 10px;
+}
+
 .separatorCenter {
   display: flex;
   // background-color: var(--primary);
@@ -90,4 +99,17 @@
     font-size: 32px;
     color: var(--text-color);
   }
+}
+
+.sectionTitle {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: var(--secondary);
+  font-family: var(--title-font);
+  font-size: 40px;
+}
+
+.p-x-10 {
+  padding-left: 10%;
+  padding-right: 10%;
 }

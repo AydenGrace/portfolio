@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <header
-      className={`w-100 p-20 d-flex index1 fixed justify-content-between`}
+      className={`w-100 p-20 d-flex index-10 fixed justify-content-between`}
     >
       <a href="#" className="logo">
         CRABBÉ Pierre-Alexandre
