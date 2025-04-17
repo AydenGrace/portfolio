@@ -49,6 +49,13 @@ export default function About() {
 
   const experiences = [
     {
+      title: "Designer / Développeur",
+      company: "WizarDesign",
+      contract: "Indépendant",
+      start: new Date("01/29/2024"),
+      end: new Date(Date.now()),
+    },
+    {
       title: "Développeur Web Fullstack",
       company: "1Civil.IT",
       contract: "Stagiaire",
@@ -63,7 +70,7 @@ export default function About() {
       end: new Date("09/01/2024"),
     },
     {
-      title: "Concepteur Designeur UI/UX",
+      title: "Concepteur Designer UI/UX",
       company: "Le Reliquaire",
       contract: "Stagiaire",
       start: new Date("10/01/2023"),
