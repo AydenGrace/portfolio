@@ -106,10 +106,10 @@ export default function About() {
       <div className="w-100 d-flex flex-fill p-x-10">
         {/* LEFT COLUMN */}
         <div className="d-flex w-100 flex-fill justify-content-end">
-          <div className={`${styles.img}`}></div>
+          <div className={`${styles.img} max-h-screen`}></div>
         </div>
         {/* RIGHT COLUMN */}
-        <div className={`d-flex w-100 flex-column `}>
+        <div className={`d-flex w-full flex-column`}>
           <p className={`${styles.desc}`}>
             Mon nom est <span>Pierre-Alexandre Crabbé</span>. Je suis un homme
             passionné par les domaines du numérique. Né en Belgique, j’ai obtenu
@@ -122,7 +122,7 @@ export default function About() {
             titulaire d’un titre de <span>Concepteur Designer UI</span> et{" "}
             <span>Développeur Web et Web Mobile</span>.
           </p>
-          <p className={`${styles.desc}`}>
+          <p className={`${styles.desc} mb-2`}>
             De nature <span>Bienveillant</span>, <span>Créatif</span>,{" "}
             <span>Curieux</span>, ... je me pousse continuellement à développer
             de nouvelles compétences. Je suis quelqu’un qui prône la discussion

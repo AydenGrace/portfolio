@@ -1,12 +1,14 @@
 import React from "react";
 import Title from "./components/Title";
 import About from "./components/About";
+import Skills from "./components/skills/Skills";
 
 export default function Landing() {
   return (
-    <div className="index-5">
-      <Title></Title>
-      <About></About>
-    </div>
+    <main className="index-5">
+      <Title />
+      <About />
+      <Skills />
+    </main>
   );
 }
