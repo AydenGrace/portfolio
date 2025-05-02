@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import "./assets/styles/index.scss";
 import Header from "./components/header/Header";
 import Particle from "./components/particles/Particle";
-import Landing from "./pages/landing/Landing";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Outlet />
       <Particle />
+      <Toaster position="bottom-right" reverseOrder={false} />
     </div>
   );
 }

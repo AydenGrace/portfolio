@@ -1,0 +1,8 @@
+.check:checked::before {
+  content: "✔";
+  font-size: 1em;
+  color: var(--color-primary);
+  position: absolute;
+  right: 1px;
+  top: -5px;
+}
