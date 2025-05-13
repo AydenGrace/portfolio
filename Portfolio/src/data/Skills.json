@@ -3,109 +3,109 @@
     "title": "Figma",
     "category": "design",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FFigma-min.webp?alt=media&token=c1b828db-b3e8-43b7-b535-c2ebc03292d0",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//figma.webp"
   },
   {
     "title": "Photoshop",
     "category": "design",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FAdobe%20Photoshop-min.webp?alt=media&token=ecea22b2-92f7-4dcf-aa79-570226884108",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//photoshop.webp"
   },
   {
     "title": "Illustrator",
     "category": "design",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FAdobe%20Illustrator-min.webp?alt=media&token=a9bef1e0-3ea5-4434-b1bf-c370131f49eb",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//illustrator.webp"
   },
   {
     "title": "inDesign",
     "category": "design",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FAdobe%20Indesign-min.webp?alt=media&token=4863bbca-3137-4490-8ffc-2418dab633d2",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//design.webp"
   },
   {
     "title": "Premiere Pro",
     "category": "design",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FAdobe%20Premiere%20Pro-min.webp?alt=media&token=36c9177f-92c1-4bd6-91b0-ffbea6003177",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//premiere.webp"
   },
   {
     "title": "React",
     "category": "frontend",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FReact-min.webp?alt=media&token=4cff18a2-167a-4775-9f29-6115432161b7",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//react.webp"
   },
   {
     "title": "Javascript",
     "category": "frontend",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FJavaScript-min.webp?alt=media&token=3291eed8-66f5-4994-b7f2-74ff7fdba441",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//js.webp"
   },
   {
     "title": "HTML 5",
     "category": "frontend",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FHtml%205-min.webp?alt=media&token=eebe10b5-4c83-475e-8b37-e6ef99b24d6c",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//html.webp"
   },
   {
     "title": "CSS 3",
     "category": "frontend",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FCSS3-min.webp?alt=media&token=2c17d19c-e602-4324-969b-e398edbcf129",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//css.webp"
   },
   {
     "title": "SASS",
     "category": "frontend",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FSass-Avatar-min.webp?alt=media&token=d9053c29-26fb-4a13-bca5-538db03a88a7",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//sass.webp"
   },
   {
     "title": "Docker",
     "category": "tool",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FDocker-min.webp?alt=media&token=6ca1b49d-0128-43c1-a0e7-9aab421734ab",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//docker.webp"
   },
   {
     "title": "Postman",
     "category": "tool",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FPostman%20Api-min.webp?alt=media&token=72917c0c-54fa-44c3-b60e-4507b99d844a",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//docker.webp"
   },
   {
     "title": "Firebase",
     "category": "tool",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FFirebase-min.webp?alt=media&token=13e498fa-c0c9-4a92-b6ca-eb91824d4ab1",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//firebase.webp"
   },
   {
     "title": "Git",
     "category": "tool",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FGit-min.webp?alt=media&token=fe74fb81-71c1-403d-820f-1d7df18b0832",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//git.webp"
   },
   {
     "title": "Github",
     "category": "tool",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FGitHub-min.webp?alt=media&token=463c97e6-7189-4941-ac56-f112d1ba79a9",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//github.webp"
   },
   {
     "title": "MongoDB",
     "category": "bdd",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FMongoDB-min.webp?alt=media&token=c9e97623-8023-4027-820a-59405ecadc6f",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//mongo.webp"
   },
   {
     "title": "MySQL",
     "category": "bdd",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FMy%20Sql-min.webp?alt=media&token=6b140cae-a0cf-413d-92dc-6592a456f1e5",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//sql.webp"
   },
   {
     "title": "PostgreSQL",
     "category": "bdd",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FPostgre.webp?alt=media&token=3323db93-0534-4663-a69e-3e2a11a68a22",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//postsql.webp"
   },
   {
     "title": "NodeJS",
@@ -117,18 +117,18 @@
     "title": "Java",
     "category": "backend",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FJava-min.webp?alt=media&token=b4ee5762-5d36-403d-bc59-ec7da6a940cf",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//java.webp"
   },
   {
     "title": "Spring Boot",
     "category": "backend",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2Fspring-boot-logo-1-1-min.webp?alt=media&token=946dec7d-2dac-4d3f-a422-da37d52f1d57",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//spring.webp"
   },
   {
     "title": "Wordpress",
     "category": "cms",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FWordPress-min.webp?alt=media&token=eacea29a-ce16-403b-9063-d6723a2ed67c",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//wordpress.webp"
   }
 ]
