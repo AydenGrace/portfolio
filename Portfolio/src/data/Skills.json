@@ -111,7 +111,7 @@
     "title": "NodeJS",
     "category": "backend",
     "icon": "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2Fnode-js-icon-1817x2048-g8tzf91e%201-min.webp?alt=media&token=81c2d332-4deb-436b-871b-ba2b86ff18d9",
-    "background": ""
+    "background": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//node.webp"
   },
   {
     "title": "Java",
