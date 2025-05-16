@@ -21,6 +21,13 @@
   --font-display: "Faculty Glyphic", sans-serif;
   --title-font-family: "Amarante", serif;
 }
+
+@layer base {
+  .font-outline-1 {
+    -webkit-text-stroke: 1px var(--color-secondary);
+  }
+}
+
 /* 
 
 .active {

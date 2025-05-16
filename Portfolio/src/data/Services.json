@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Identité graphique",
+    "desc": "Envie d’un logo ou d’une charte graphique complète ? N’hésitez pas !",
+    "icon": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//service_i%20(3).webp"
+  },
+  {
+    "title": "Maquettage",
+    "desc": "Besoin d’une maquette pour un site web ? N’attendez plus et profitez de mes maquettes intéractives !",
+    "icon": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//service_i%20(5).webp"
+  },
+  {
+    "title": "SITE WEB",
+    "desc": "Création complète d’un site web (back & front), allant du site vitrine à l’e-commerce.",
+    "icon": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//service_i%20(1).webp"
+  },
+  {
+    "title": "optimisation seo",
+    "desc": "Besoin d’aide pour mettre votre site en avant ? je vous aiderais à optimiser votre référencement !",
+    "icon": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//service_i%20(7).webp"
+  },
+  {
+    "title": "accessibilité",
+    "desc": "Vous avez besoin d’améliorer l’accessibilité de votre site afin que tout le monde puisse en profiter ?",
+    "icon": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//service_i%20(2).webp"
+  },
+  {
+    "title": "sécurité & rgpd",
+    "desc": "Vous souhaitez mettre votre projet aux normes RGPD ? Améliorer sa sécurité ?",
+    "icon": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//service_i%20(6).webp"
+  },
+  {
+    "title": "mise en service",
+    "desc": "Besoin de conseil pour trouver le meilleur hébergeur à bas prix ? J’ai quelques petites astuces !",
+    "icon": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//service_i%20(4).webp"
+  }
+]

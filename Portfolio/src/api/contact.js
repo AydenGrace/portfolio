@@ -14,8 +14,6 @@ export const sendContactForm = async (values) => {
     );
     if (response.ok) {
       toast.success("Votre message a bien été envoyé !");
-      setFeedback(response.status);
-      if (response.status === 200) reset(defaultValues);
     } else {
       toast.error("une erreur est survenue !");
     }

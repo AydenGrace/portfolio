@@ -103,9 +103,9 @@ export default function About() {
     <section className="w-100 f-center flex-column mb-10">
       <Separator number={1} />
       <h2 className="sectionTitle">PRÉSENTATION</h2>
-      <div className="w-100 d-flex flex-fill p-x-10">
+      <div className="w-100 d-flex flex-fill p-x-10 flex-row-reverse">
         {/* LEFT COLUMN */}
-        <div className="d-flex w-100 flex-fill justify-content-end">
+        <div className="flex w-full flex-fill justify-center">
           <div className={`${styles.img} max-h-screen`}></div>
         </div>
         {/* RIGHT COLUMN */}
