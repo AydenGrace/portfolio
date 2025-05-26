@@ -88,7 +88,7 @@ export default function About() {
       company: "Get Out!",
       contract: "CDDU",
       start: new Date("08/01/2020"),
-      end: new Date("01/01/2022"),
+      end: new Date("11/01/2022"),
     },
     {
       title: "Développeur .NET",
@@ -103,10 +103,12 @@ export default function About() {
     <section className="w-100 f-center flex-column mb-10">
       <Separator number={1} />
       <h2 className="sectionTitle">PRÉSENTATION</h2>
-      <div className="w-100 d-flex flex-fill p-x-10 flex-row-reverse">
+      <div className="w-100 d-flex flex-fill p-x-10 flex-col xl:flex-row-reverse">
         {/* LEFT COLUMN */}
         <div className="flex w-full flex-fill justify-center">
-          <div className={`${styles.img} max-h-screen`}></div>
+          <div
+            className={`${styles.img} w-full bg-top-right bg-contain max-h-screen min-h-[400px]`}
+          ></div>
         </div>
         {/* RIGHT COLUMN */}
         <div className={`d-flex w-full flex-column`}>
@@ -130,7 +132,7 @@ export default function About() {
             dans un environnement qui poussera tout le monde à grandir.
           </p>
           {/* EXPERIENCES */}
-          <div className="d-flex flex-fill">
+          <div className="d-flex flex-fill flex-col md:flex-row">
             <div className="d-flex flex-fill flex-column align-items-center g-10 ">
               <h3 className={`${styles.expTitle}`}>DIPLÔMES</h3>
               <div className="separatorSubline"></div>

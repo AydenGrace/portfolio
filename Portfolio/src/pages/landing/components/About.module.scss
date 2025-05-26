@@ -12,9 +12,7 @@
 
 .img {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/p_a_portrait_11zon.webp?alt=media&token=fcacad76-401d-4cb8-b94a-db6ce7c23e0a");
-  background-position: top right;
-  background-size: contain;
   width: 100%;
-  height: 100%;
+  height: calc(100vw);
   background-repeat: no-repeat;
 }
