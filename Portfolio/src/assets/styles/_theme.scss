@@ -20,20 +20,25 @@
   background-color: white;
 }
 
-.card {
-  border-radius: 20px;
-  background-color: white;
-}
+// .card {
+//   border-radius: 20px;
+//   background-color: white;
+// }
 
 .bg-primary {
   background-color: var(--primary);
 }
 
-.nav,
-.logo {
+.nav {
   font-family: var(--title-font);
   font-size: 20px;
   cursor: pointer;
+  &:hover {
+    text-shadow: white 0 0 10px;
+  }
+}
+
+.logo {
   &:hover {
     text-shadow: white 0 0 10px;
   }

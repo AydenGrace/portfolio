@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
 import useWindowScroll from "../hooks/useWindowScroll";
-import { Link, NavLink } from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
+import Burger from "./Burger";
 
 export default function Header() {
-  const { y } = useWindowScroll();
+  const {y} = useWindowScroll();
 
   return (
     <header
@@ -14,10 +14,13 @@ export default function Header() {
         }%, rgba(21, 21, 21, 0) 100%)`,
       }}
     >
-      <Link to={"/"} className="logo">
+      <Link
+        to={"/"}
+        className="text-secondary font-(family-name:--title-font-family) text-lg sm:text-xl cursor-pointer logo"
+      >
         CRABBÉ Pierre-Alexandre
       </Link>
-      <nav className="d-flex g-20">
+      <nav className="hidden sm:flex g-20">
         <NavLink to={"/"} className="nav">
           Accueil
         </NavLink>
@@ -31,6 +34,9 @@ export default function Header() {
           Contact
         </NavLink>
       </nav>
+      <div className="flex md:hidden">
+        <Burger />
+      </div>
     </header>
   );
 }
