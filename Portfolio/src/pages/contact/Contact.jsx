@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import style from "./Contact.module.scss";
 import {Link} from "react-router-dom";
 import * as yup from "yup";
 import {useForm} from "react-hook-form";
 import {yupResolver} from "@hookform/resolvers/yup";
 import {sendContactForm} from "../../api/contact";
+import ReCAPTCHA from "react-google-recaptcha";
 
 export default function Contact() {
   const schema = yup.object({
@@ -23,6 +24,9 @@ export default function Contact() {
       .boolean()
       .oneOf([true], "Veuillez accepter les termes et conditions."),
   });
+
+  const [captcha, setCaptcha] = useState(false);
+  const [captchaError, setCaptchaError] = useState(null);
 
   const defaultValues = {
     name: "",
@@ -44,9 +48,22 @@ export default function Contact() {
 
   const submit = (values) => {
     console.log(values);
+    if (!captcha) {
+      setCaptchaError("Veillez remplir le CAPTCHA.");
+      return;
+    }
+    setCaptchaError(null);
     //SEND TO BACKEND FOR EMAIL CREATION
     sendContactForm(values);
     reset(defaultValues);
+  };
+
+  const captChange = (e) => {
+    if (e) setCaptcha(true);
+  };
+
+  const resetCaptcha = () => {
+    setCaptcha(null);
   };
 
   return (
@@ -140,6 +157,14 @@ export default function Contact() {
           </div>
           {errors.rgpd && <p className="text-red-500">{errors.rgpd.message}</p>}
         </div>
+        <ReCAPTCHA
+          sitekey={import.meta.env.VITE_CAPTCHA_KEY_SITE}
+          theme="dark"
+          onChange={captChange}
+          onExpired={resetCaptcha}
+          onErrored={resetCaptcha}
+        />
+        {captchaError && <p className="text-red-500">{captchaError}</p>}
         <div className="w-full flex items-center justify-center">
           <input
             type="submit"

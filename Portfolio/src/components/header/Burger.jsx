@@ -14,6 +14,7 @@ export default function Burger({children, closeTrigger}) {
   };
 
   useEffect(() => {
+    if (!closeTrigger) return;
     toggleBurger();
   }, [closeTrigger]);
 

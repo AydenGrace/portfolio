@@ -5,7 +5,7 @@ import {useState} from "react";
 
 export default function Header() {
   const {y} = useWindowScroll();
-  const [opened, setOpened] = useState(false);
+  const [opened, setOpened] = useState(null);
 
   return (
     <header
