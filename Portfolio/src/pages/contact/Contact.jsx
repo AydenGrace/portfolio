@@ -73,7 +73,7 @@ export default function Contact() {
           ENVIE DE PARLER D'UN PROJET ?
         </h1>
         <p className="text-3xl sm:text-[40px] font-(family-name:--title-font-family)">
-          Je serais ravi de lire votre message !
+          Je serai ravi de lire votre message !
         </p>
       </section>
       <form
