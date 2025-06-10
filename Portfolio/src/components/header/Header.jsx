@@ -1,9 +1,11 @@
 import useWindowScroll from "../hooks/useWindowScroll";
 import {Link, NavLink} from "react-router-dom";
 import Burger from "./Burger";
+import {useState} from "react";
 
 export default function Header() {
   const {y} = useWindowScroll();
+  const [opened, setOpened] = useState(false);
 
   return (
     <header
@@ -35,7 +37,36 @@ export default function Header() {
         </NavLink>
       </nav>
       <div className="flex md:hidden">
-        <Burger />
+        <Burger closeTrigger={opened}>
+          <NavLink
+            to={"/"}
+            className="nav mb-20"
+            onClick={() => setOpened(Math.random())}
+          >
+            Accueil
+          </NavLink>
+          <NavLink
+            to={"/services"}
+            className="nav mb-20"
+            onClick={() => setOpened(Math.random())}
+          >
+            Mes Services
+          </NavLink>
+          <NavLink
+            to={"/projects"}
+            className="nav mb-20"
+            onClick={() => setOpened(Math.random())}
+          >
+            Projets
+          </NavLink>
+          <NavLink
+            to={"/contact"}
+            className="nav mb-20"
+            onClick={() => setOpened(Math.random())}
+          >
+            Contact
+          </NavLink>
+        </Burger>
       </div>
     </header>
   );
