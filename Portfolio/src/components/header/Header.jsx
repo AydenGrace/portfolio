@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <header
-      className={`w-100 p-20 d-flex fixed justify-content-between z-50`}
+      className={`w-100 p-20 d-flex fixed justify-content-between items-center z-50`}
       style={{
         background: `linear-gradient(180deg,rgba(21, 21, 21,1) 0%, rgba(21, 21, 21, 0.9) ${
           y > 1000 ? "100" : y / 10
@@ -20,7 +20,7 @@ export default function Header() {
       >
         CRABBÉ Pierre-Alexandre
       </Link>
-      <nav className="hidden sm:flex g-20">
+      <nav className="hidden md:flex g-20">
         <NavLink to={"/"} className="nav">
           Accueil
         </NavLink>

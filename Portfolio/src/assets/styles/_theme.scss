@@ -129,3 +129,8 @@
   font-size: 24px;
   margin-bottom: 10px;
 }
+
+.animated {
+  animation: all 0.5s ease-in-out normal;
+  transition: all 0.5s ease-in-out;
+}
