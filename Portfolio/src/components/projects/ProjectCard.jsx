@@ -1,5 +1,5 @@
-import React from "react";
 import {Link} from "react-router-dom";
+// import Magnet from "../bits/Magnet";
 
 export default function ProjectCard({
   project = {
@@ -16,6 +16,7 @@ export default function ProjectCard({
   }
 
   return (
+    // <Magnet magnetStrength={150} disabled={false}>
     <Link to={project.link}>
       <article className="card flex-col flex w-[300px] h-[350px] rounded-2xl bg-antracite overflow-hidden hover:shadow hover:shadow-white/50">
         <div
@@ -33,5 +34,6 @@ export default function ProjectCard({
         </div>
       </article>
     </Link>
+    // </Magnet>
   );
 }
