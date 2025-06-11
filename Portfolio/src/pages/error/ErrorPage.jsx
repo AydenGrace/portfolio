@@ -7,8 +7,8 @@ import {Link} from "react-router-dom";
 export default function ErrorPage() {
   return (
     <div className="flex flex-col">
-      <Header />
-      <Particle />
+      {/* <Header /> */}
+      {/* <Particle /> */}
       <div className="w-full min-h-screen items-center justify-center flex flex-col z-10 gap-4">
         <h1 className="text-5xl sm:text-8xl md:text-[104px] text-secondary font-(family-name:--title-font-family) md:leading-[104px]">
           Erreur 404
