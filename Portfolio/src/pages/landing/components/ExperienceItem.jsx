@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./ExperienceItem.module.scss";
 
-export default function ExperienceItem({ isGrade = false, exp }) {
+export default function ExperienceItem({isGrade = false, exp}) {
   console.log(exp);
 
   const month = [
@@ -47,7 +47,7 @@ export default function ExperienceItem({ isGrade = false, exp }) {
     let msg = "- ";
 
     if (diffDays > 365) {
-      msg += `${Math.floor(diffDays / 365)} année${
+      msg += `${Math.floor(diffDays / 365)} an${
         Math.floor(diffDays / 365) > 1 ? "s" : ""
       } `;
       diffDays = diffDays % 365;

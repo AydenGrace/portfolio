@@ -81,7 +81,14 @@ export default function About() {
       company: "Orbis Aventure",
       contract: "CDI",
       start: new Date("11/01/2022"),
-      end: new Date("04/01/2023"),
+      end: new Date("04/30/2023"),
+    },
+    {
+      title: "Ambassadeur de l'Égalité",
+      company: "CCAS Roubaix",
+      contract: "Service Civique",
+      start: new Date("03/01/2023"),
+      end: new Date("11/01/2023"),
     },
     {
       title: "Game Master",
@@ -90,13 +97,13 @@ export default function About() {
       start: new Date("08/01/2020"),
       end: new Date("11/01/2022"),
     },
-    {
-      title: "Développeur .NET",
-      company: "ALX System",
-      contract: "Stagiaire",
-      start: new Date("01/01/2019"),
-      end: new Date("06/01/2019"),
-    },
+    // {
+    //   title: "Développeur .NET",
+    //   company: "ALX System",
+    //   contract: "Stagiaire",
+    //   start: new Date("01/01/2019"),
+    //   end: new Date("06/01/2019"),
+    // },
   ];
 
   return (

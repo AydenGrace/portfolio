@@ -18,7 +18,7 @@ export default function ProjectCard({
   return (
     // <Magnet magnetStrength={150} disabled={false}>
     <Link to={project.link}>
-      <article className="card flex-col flex w-[300px] h-[350px] rounded-2xl bg-antracite overflow-hidden hover:shadow hover:shadow-white/50">
+      <article className="card  flex-col flex w-[300px] h-[350px] rounded-2xl bg-antracite overflow-hidden hover:shadow hover:shadow-white/50">
         <div
           className="flex flex-1 bg-cover bg-center bg-no-repeat"
           style={{
@@ -26,11 +26,11 @@ export default function ProjectCard({
           }}
         ></div>
         <div className="flex flex-col w-full items-center justify-center text-center py-4 px-1">
-          <h3 className="text-secondary font-(family-name:--title-font-family) uppercase text-lg">
+          <h3 className="text-secondary !cursor-pointer font-(family-name:--title-font-family) uppercase text-lg">
             {project.title}
           </h3>
           <figure className="separatorSubline" />
-          <p className="text-white/50">{catLabel}</p>
+          <p className="text-white/50 !cursor-pointer">{catLabel}</p>
         </div>
       </article>
     </Link>
