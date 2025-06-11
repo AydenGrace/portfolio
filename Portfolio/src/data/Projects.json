@@ -48,6 +48,12 @@
     "link": "netflut"
   },
   {
+    "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//Dungeon_Maze.webp",
+    "title": "Dungeon Maze",
+    "categories": ["Maquettage"],
+    "link": "dungeon-maze"
+  },
+  {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//petit_renard.webp",
     "title": "Le Petit Renard",
     "categories": ["Illustration"],

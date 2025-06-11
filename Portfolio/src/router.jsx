@@ -5,6 +5,8 @@ import Contact from "./pages/contact/Contact";
 import Projects from "./pages/projects/Projects";
 import Services from "./pages/services/Services";
 import ErrorPage from "./pages/error/ErrorPage";
+import PetitRenard from "./pages/projects/subpages/PetitRenard";
+import AllProjects from "./pages/projects/subpages/AllProjects";
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +28,16 @@ export const router = createBrowserRouter([
           {
             path: "/projects",
             element: <Projects />,
+            children: [
+              {
+                index: 1,
+                element: <AllProjects />,
+              },
+              {
+                path: "petit-renard",
+                element: <PetitRenard />,
+              },
+            ],
           },
           {
             path: "/services",
