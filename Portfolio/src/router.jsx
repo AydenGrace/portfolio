@@ -8,25 +8,34 @@ import ErrorPage from "./pages/error/ErrorPage";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
-    element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
-        element: <Landing />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
-      {
-        path: "/projects",
-        element: <Projects />,
-      },
-      {
-        path: "/services",
-        element: <Services />,
+        element: <App />,
+        errorElement: <ErrorPage />,
+        children: [
+          {
+            path: "/",
+            element: <Landing />,
+          },
+          {
+            path: "/contact",
+            element: <Contact />,
+          },
+          {
+            path: "/projects",
+            element: <Projects />,
+          },
+          {
+            path: "/services",
+            element: <Services />,
+          },
+          {
+            path: "*",
+            element: <ErrorPage />,
+          },
+        ],
       },
     ],
   },
