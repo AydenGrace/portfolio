@@ -47,7 +47,9 @@ export default function PetitRenard() {
           <h1 className="text-[40px] leading-[40px] text-secondary font-(family-name:--title-font-family)">
             LE PETIT RENARD
           </h1>
-          <TechBadge isIllustrator />
+          <div className="w-full gap-2.5 flex flex-wrap">
+            <TechBadge isIllustrator />
+          </div>
           <p>
             Ce projet est un exercice ayant pour but de s'exercer avec{" "}
             <span className="text-secondary">Adobe Illustrator</span>. L'énoncé
