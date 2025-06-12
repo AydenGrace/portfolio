@@ -5,6 +5,7 @@ import Particle from "./components/particles/Particle";
 import {Toaster} from "react-hot-toast";
 import SplashCursor from "./components/bits/SplashCursor";
 import Footer from "./components/footer/Footer";
+import Socials from "./components/socials/Socials";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Particle />
       <SplashCursor />
       <ScrollRestoration />
+      <Socials />
       <Toaster position="bottom-right" reverseOrder={false} />
     </div>
   );

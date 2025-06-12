@@ -3,9 +3,14 @@ import {Link} from "react-router-dom";
 import Separator from "../../../components/separator/Separator";
 import {PhotoProvider, PhotoView} from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
+import TechBadge from "../../../components/TechBadge";
 
 export default function PetitRenard() {
   const Images = [
+    {
+      src: "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//autodidacte%20(21).webp",
+      alt: "Inspirations",
+    },
     {
       src: "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//renard_1.webp",
       alt: "Création du Renard",
@@ -42,18 +47,7 @@ export default function PetitRenard() {
           <h1 className="text-[40px] leading-[40px] text-secondary font-(family-name:--title-font-family)">
             LE PETIT RENARD
           </h1>
-          <div className="w-full flex flex-wrap">
-            <div className="flex items-center border-orange-700 border-2 text-text rounded-2xl px-2 py-1 text-sm gap-1">
-              <img
-                src={
-                  "https://firebasestorage.googleapis.com/v0/b/portfolio-e3894.firebasestorage.app/o/icons%2FAdobe%20Illustrator-min.webp?alt=media&token=a9bef1e0-3ea5-4434-b1bf-c370131f49eb"
-                }
-                alt={"Illustrator"}
-                width={"25px"}
-              />
-              Adobe Illustrator
-            </div>
-          </div>
+          <TechBadge isIllustrator />
           <p>
             Ce projet est un exercice ayant pour but de s'exercer avec{" "}
             <span className="text-secondary">Adobe Illustrator</span>. L'énoncé
@@ -93,7 +87,7 @@ export default function PetitRenard() {
                     <img
                       src={img.src}
                       alt={img.alt}
-                      className="cursor-pointer !h-[425px] !object-cover"
+                      className="cursor-pointer !min-h-[425px] !object-cover"
                     />
                   </div>
                 </PhotoView>

@@ -7,6 +7,7 @@ export default function ProjectCard({
     img: "https://media.discordapp.net/attachments/1337138364020953212/1376818499963453472/image.png?ex=6843e4a6&is=68429326&hm=465a152b8eafa0affb9b3ce5f77852c7246ddc15a8a23b8efa4fff9bdae77667&=&format=webp&quality=lossless",
     categories: ["Test1", "Test2"],
     link: "test",
+    isExternalLink: false,
   },
 }) {
   let catLabel = "";
@@ -17,7 +18,7 @@ export default function ProjectCard({
 
   return (
     // <Magnet magnetStrength={150} disabled={false}>
-    <Link to={project.link}>
+    <Link to={project.link} target={project.isExternalLink && "_blank"}>
       <article className="card  flex-col flex w-[300px] h-[350px] rounded-2xl bg-antracite overflow-hidden hover:shadow hover:shadow-white/50">
         <div
           className="flex flex-1 bg-cover bg-center bg-no-repeat"

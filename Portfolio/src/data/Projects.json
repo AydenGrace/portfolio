@@ -3,96 +3,117 @@
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//worldmap.webp",
     "title": "Worldmap Three.JS",
     "categories": ["Frontend"],
-    "link": "worldmap-threeJS"
+    "link": "worldmap-threeJS",
+    "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//smiley.webp",
     "title": "Smiley by Risus",
     "categories": ["Identité graphique", "Fullstack"],
-    "link": "smiley"
+    "link": "smiley",
+    "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//webp-compressor.webp",
     "title": "WebP & Compressor",
     "categories": ["Frontend"],
-    "link": "webp-compressor"
+    "link": "https://www.webp-compressor.crabbe-pro.fr/",
+    "isExternalLink": true
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//c6f153ebb8e0494bc4d3aa69fa077e8846bff612.webp",
     "title": "1Civil.IT",
     "categories": ["Identité graphique", "Fullstack", "Mobile"],
-    "link": "1civil-it"
+    "link": "1civil-it",
+    "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//challe_jeux.webp",
     "title": "La Challe de Jeux",
     "categories": ["Identité graphique", "Fullstack", "SEO"],
-    "link": "webp-compressor"
+    "link": "https://challe-de-jeux-frontend.vercel.app/",
+    "isExternalLink": true
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//player_beer.webp",
     "title": "Player \"Beer\"",
     "categories": ["Identité graphique", "Wordpress", "SEO"],
-    "link": "player-beer"
+    "link": "player-beer",
+    "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//bataille_navale.webp",
     "title": "Bataille navale",
     "categories": ["Fullstack"],
-    "link": "bataille-navale"
+    "link": "https://battleship-zb1l.onrender.com/",
+    "isExternalLink": true
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//netflut.webp",
     "title": "Netflut",
     "categories": ["Frontend"],
-    "link": "netflut"
+    "link": "https://dwwm-crabbe-tmdb.netlify.app/",
+    "isExternalLink": true
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//Dungeon_Maze.webp",
     "title": "Dungeon Maze",
     "categories": ["Maquettage"],
-    "link": "dungeon-maze"
+    "link": "https://www.figma.com/proto/MtQo1iESoXa5UzZtu6RwOp/Dungeon-Maze?page-id=64%3A51&node-id=146-934&p=f&viewport=228%2C137%2C0.02&t=BRPPWCMIekYV4UFA-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=146%3A933&show-proto-sidebar=1",
+    "isExternalLink": true
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//petit_renard.webp",
     "title": "Le Petit Renard",
     "categories": ["Illustration"],
-    "link": "petit-renard"
+    "link": "petit-renard",
+    "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//adap_immo.webp",
     "title": "Adap Immo",
-    "categories": ["logo"],
-    "link": "adap-immo"
+    "categories": ["Logo"],
+    "link": "adap-immo",
+    "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//ede82de9365137d2d4e3bde4937c7c5f70f1819c.webp",
     "title": "Chasses aux reliques",
     "categories": ["Identité graphique", "Wordpress", "SEO"],
-    "link": "reliques"
+    "link": "https://chasseauxreliques.be/",
+    "isExternalLink": true
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//cogite.webp",
     "title": "Co'Gîte",
     "categories": ["Identité graphique", "Fullstack"],
-    "link": "cogite"
+    "link": "cogite",
+    "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//motion_ocean.webp",
     "title": "Motion in the Ocean",
     "categories": ["Logo"],
-    "link": "webp-compressor"
+    "link": "webp-compressor",
+    "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//techvision.webp",
     "title": "TechVision",
     "categories": ["Identité graphique", "Prints"],
-    "link": "techvision"
+    "link": "techvision",
+    "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//ambassadeur_egalite.webp",
     "title": "Ambassadeur de l'Égalité",
     "categories": ["Identité graphique", "Prints"],
     "link": "ambassador"
+  },
+  {
+    "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//elephant.webp",
+    "title": "Premiers pas",
+    "categories": ["Autre"],
+    "link": "self-taught"
   }
 ]
