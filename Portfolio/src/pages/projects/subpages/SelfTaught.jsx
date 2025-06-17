@@ -4,6 +4,7 @@ import Separator from "../../../components/separator/Separator";
 import {PhotoProvider, PhotoView} from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 import TechBadge from "../../../components/TechBadge";
+import Galery from "../../../components/projects/Galery";
 
 export default function SelfTaught() {
   const Images = [
@@ -123,29 +124,7 @@ export default function SelfTaught() {
         </div>
         <div className="flex w-full h-full items-center justify-center"></div>
       </div>
-      <div className="flex flex-col w-full px-[10%] items-center">
-        <div className="flex flex-col w-full gap-4 items-center">
-          <Separator number={1} />
-          <h2 className="text-[40px] leading-[40px] text-secondary font-(family-name:--title-font-family)">
-            Galerie
-          </h2>
-          <PhotoProvider>
-            <div className="w-full flex flex-wrap gap-4 items-center justify-center mb-4">
-              {Images.map((img, i) => (
-                <PhotoView src={img.src} key={i}>
-                  <div className="w-[300px] h-[425px] overflow-hidden">
-                    <img
-                      src={img.src}
-                      alt={img.alt}
-                      className="cursor-pointer !min-h-[425px] !object-cover"
-                    />
-                  </div>
-                </PhotoView>
-              ))}
-            </div>
-          </PhotoProvider>
-        </div>
-      </div>
+      <Galery images={Images} catNb={1} />
     </div>
   );
 }

@@ -3,14 +3,14 @@
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//worldmap.webp",
     "title": "Worldmap Three.JS",
     "categories": ["Frontend"],
-    "link": "worldmap-threeJS",
-    "isExternalLink": false
+    "link": "https://worldmap-three.netlify.app/",
+    "isExternalLink": true
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//smiley.webp",
     "title": "Smiley by Risus",
     "categories": ["Identité graphique", "Fullstack"],
-    "link": "smiley",
+    "link": "work-in-progress",
     "isExternalLink": false
   },
   {
@@ -24,7 +24,7 @@
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//c6f153ebb8e0494bc4d3aa69fa077e8846bff612.webp",
     "title": "1Civil.IT",
     "categories": ["Identité graphique", "Fullstack", "Mobile"],
-    "link": "1civil-it",
+    "link": "work-in-progress",
     "isExternalLink": false
   },
   {
@@ -38,7 +38,7 @@
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//player_beer.webp",
     "title": "Player \"Beer\"",
     "categories": ["Identité graphique", "Wordpress", "SEO"],
-    "link": "player-beer",
+    "link": "work-in-progress",
     "isExternalLink": false
   },
   {
@@ -73,7 +73,7 @@
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//adap_immo.webp",
     "title": "Adap Immo",
     "categories": ["Logo"],
-    "link": "adap-immo",
+    "link": "work-in-progress",
     "isExternalLink": false
   },
   {
@@ -87,33 +87,35 @@
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//cogite.webp",
     "title": "Co'Gîte",
     "categories": ["Identité graphique", "Fullstack"],
-    "link": "cogite",
+    "link": "work-in-progress",
     "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//motion_ocean.webp",
     "title": "Motion in the Ocean",
     "categories": ["Logo"],
-    "link": "webp-compressor",
+    "link": "work-in-progress",
     "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//techvision.webp",
     "title": "TechVision",
     "categories": ["Identité graphique", "Prints"],
-    "link": "techvision",
+    "link": "work-in-progress",
     "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//ambassadeur_egalite.webp",
     "title": "Ambassadeur de l'Égalité",
     "categories": ["Identité graphique", "Prints"],
-    "link": "ambassador"
+    "link": "work-in-progress",
+    "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//elephant.webp",
     "title": "Premiers pas",
     "categories": ["Autre"],
-    "link": "self-taught"
+    "link": "self-taught",
+    "isExternalLink": false
   }
 ]

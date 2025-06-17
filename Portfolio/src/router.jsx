@@ -8,6 +8,7 @@ import ErrorPage from "./pages/error/ErrorPage";
 import PetitRenard from "./pages/projects/subpages/PetitRenard";
 import AllProjects from "./pages/projects/subpages/AllProjects";
 import SelfTaught from "./pages/projects/subpages/SelfTaught";
+import WIP from "./pages/projects/subpages/WIP";
 
 export const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ export const router = createBrowserRouter([
               {
                 index: 1,
                 element: <AllProjects />,
+              },
+              {
+                path: "work-in-progress",
+                element: <WIP />,
               },
               {
                 path: "petit-renard",
