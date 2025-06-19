@@ -1,5 +1,12 @@
 [
   {
+    "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//Wedding_before.webp",
+    "title": "Restauration",
+    "categories": ["Montage photo"],
+    "link": "restauration",
+    "isExternalLink": false
+  },
+  {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//worldmap.webp",
     "title": "Worldmap Three.JS",
     "categories": ["Frontend"],
@@ -35,7 +42,7 @@
     "isExternalLink": true
   },
   {
-    "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//player_beer.webp",
+    "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//65849.webp",
     "title": "Player \"Beer\"",
     "categories": ["Identité graphique", "Wordpress", "SEO"],
     "link": "work-in-progress",
@@ -108,13 +115,13 @@
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//ambassadeur_egalite.webp",
     "title": "Ambassadeur de l'Égalité",
     "categories": ["Identité graphique", "Prints"],
-    "link": "work-in-progress",
+    "link": "ambassador",
     "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//elephant.webp",
     "title": "Premiers pas",
-    "categories": ["Autre"],
+    "categories": ["Montage photo"],
     "link": "self-taught",
     "isExternalLink": false
   }

@@ -18,7 +18,7 @@ export default function ProjectCard({
 
   return (
     // <Magnet magnetStrength={150} disabled={false}>
-    <Link to={project.link} target={project.isExternalLink && "_blank"}>
+    <Link to={project.link} target={project.isExternalLink ? "_blank" : ""}>
       <article className="card  flex-col flex w-[300px] h-[350px] rounded-2xl bg-antracite overflow-hidden hover:shadow hover:shadow-white/50">
         <div
           className="flex flex-1 bg-cover bg-center bg-no-repeat"

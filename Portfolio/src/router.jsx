@@ -9,6 +9,8 @@ import PetitRenard from "./pages/projects/subpages/PetitRenard";
 import AllProjects from "./pages/projects/subpages/AllProjects";
 import SelfTaught from "./pages/projects/subpages/SelfTaught";
 import WIP from "./pages/projects/subpages/WIP";
+import Restauration from "./pages/projects/subpages/Restauration";
+import Ambassador from "./pages/projects/subpages/Ambassador";
 
 export const router = createBrowserRouter([
   {
@@ -46,6 +48,14 @@ export const router = createBrowserRouter([
               {
                 path: "self-taught",
                 element: <SelfTaught />,
+              },
+              {
+                path: "restauration",
+                element: <Restauration />,
+              },
+              {
+                path: "ambassador",
+                element: <Ambassador />,
               },
             ],
           },
