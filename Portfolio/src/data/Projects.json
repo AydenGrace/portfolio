@@ -101,15 +101,15 @@
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//motion_ocean.webp",
     "title": "Motion in the Ocean",
     "categories": ["Logo"],
-    "link": "work-in-progress",
+    "link": "motion-ocean",
     "isExternalLink": false
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//techvision.webp",
     "title": "TechVision",
     "categories": ["Identité graphique", "Prints"],
-    "link": "work-in-progress",
-    "isExternalLink": false
+    "link": "https://www.behance.net/gallery/175221331/TechVision-Technology-logo-social-media-posts",
+    "isExternalLink": true
   },
   {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//ambassadeur_egalite.webp",

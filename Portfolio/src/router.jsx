@@ -11,6 +11,7 @@ import SelfTaught from "./pages/projects/subpages/SelfTaught";
 import WIP from "./pages/projects/subpages/WIP";
 import Restauration from "./pages/projects/subpages/Restauration";
 import Ambassador from "./pages/projects/subpages/Ambassador";
+import MotionOcean from "./pages/projects/subpages/MotionOcean";
 
 export const router = createBrowserRouter([
   {
@@ -56,6 +57,10 @@ export const router = createBrowserRouter([
               {
                 path: "ambassador",
                 element: <Ambassador />,
+              },
+              {
+                path: "motion-ocean",
+                element: <MotionOcean />,
               },
             ],
           },
