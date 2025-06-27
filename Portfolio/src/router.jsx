@@ -12,6 +12,7 @@ import WIP from "./pages/projects/subpages/WIP";
 import Restauration from "./pages/projects/subpages/Restauration";
 import Ambassador from "./pages/projects/subpages/Ambassador";
 import MotionOcean from "./pages/projects/subpages/MotionOcean";
+import TimelinePage from "./pages/timeline/TimelinePage";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
           {
             path: "/",
             element: <Landing />,
+          },
+          {
+            path: "/timeline",
+            element: <TimelinePage />,
           },
           {
             path: "/contact",

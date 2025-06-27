@@ -1,12 +1,5 @@
 [
   {
-    "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//Wedding_before.webp",
-    "title": "Restauration",
-    "categories": ["Montage photo"],
-    "link": "restauration",
-    "isExternalLink": false
-  },
-  {
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//worldmap.webp",
     "title": "Worldmap Three.JS",
     "categories": ["Frontend"],

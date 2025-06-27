@@ -27,8 +27,11 @@ export default function Header() {
         <NavLink to={"/"} className="nav">
           Accueil
         </NavLink>
-        <NavLink to={"/services"} className="nav">
+        {/* <NavLink to={"/services"} className="nav">
           Mes Services
+        </NavLink> */}
+        <NavLink to={"/timeline"} className="nav">
+          Mon Parcours
         </NavLink>
         <NavLink to={"/projects"} className="nav">
           Projets
@@ -46,12 +49,19 @@ export default function Header() {
           >
             Accueil
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to={"/services"}
             className="nav mb-20"
             onClick={() => setOpened(Math.random())}
           >
             Mes Services
+          </NavLink> */}
+          <NavLink
+            to={"/timeline"}
+            className="nav mb-20"
+            onClick={() => setOpened(Math.random())}
+          >
+            Mon Parcours
           </NavLink>
           <NavLink
             to={"/projects"}
