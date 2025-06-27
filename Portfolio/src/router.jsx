@@ -17,6 +17,7 @@ import PlayerBeer from "./pages/projects/subpages/PlayerBeer";
 import TimelinePage from "./pages/timeline/TimelinePage";
 import CoGite from "./pages/projects/subpages/CoGite";
 import AdapImmo from "./pages/projects/subpages/AdapImmo";
+import CivilIT from "./pages/projects/subpages/CivilIT";
 
 export const router = createBrowserRouter([
   {
@@ -66,6 +67,10 @@ export const router = createBrowserRouter([
               {
                 path: "co-gite",
                 element: <CoGite />,
+              },
+              {
+                path: "civilit",
+                element: <CivilIT />,
               },
               {
                 path: "adap-immo",

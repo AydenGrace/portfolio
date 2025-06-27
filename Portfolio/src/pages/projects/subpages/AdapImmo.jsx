@@ -1,6 +1,5 @@
 import {AiOutlineArrowLeft} from "react-icons/ai";
 import {Link} from "react-router-dom";
-import ReactPlayer from "react-player";
 import "react-photo-view/dist/react-photo-view.css";
 import TechBadge from "../../../components/TechBadge";
 import Galery from "../../../components/projects/Galery";
@@ -50,8 +49,8 @@ export default function AdapImmo() {
             notre agence.
           </p>
           <p>
-            Après plusieurs rendez-vous avec les apprenants, je me suis décider
-            de me prêter au jeu et de créer à mon tour un proposition de logo.
+            Après plusieurs rendez-vous avec les apprenants, je me suis décidé
+            de me prêter au jeu et de créer à mon tour une proposition de logo.
             Ma version reprend divers éléments du monde immobilier. On peut y
             voir les <span className="text-secondary">lettres A et D</span> pour
             le nom de l'entreprise former une{" "}
