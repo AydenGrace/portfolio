@@ -44,6 +44,7 @@ export default function CivilIT() {
             <TechBadge isJava />
             <TechBadge isSpringBoot />
             <TechBadge isPostgre />
+            <TechBadge isFigma />
           </div>
           <p>
             1CiviL.IT est un projet de groupe réalisé durant mon stage dans
@@ -53,7 +54,7 @@ export default function CivilIT() {
           </p>
           <p>
             J'ai été en charge de l'organisation, la création de{" "}
-            <span className="text-secondary">l'identité graphique</span> et du
+            <span className="text-secondary">l'identité graphique</span> et du{" "}
             <span className="text-secondary">maquettage</span>. Je faisais aussi
             office de <span className="text-secondary">Product Owner</span> dans
             le cadre de l'organisation{" "}
