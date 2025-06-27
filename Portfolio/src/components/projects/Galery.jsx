@@ -17,7 +17,7 @@ export default function Galery({images = [], catNb = 1}) {
                   <img
                     src={img.src}
                     alt={img.alt}
-                    className="cursor-pointer !min-h-[425px] !object-cover"
+                    className="cursor-pointer !min-h-[425px] !min-w-[300px] !object-cover object-center"
                   />
                 </div>
               </PhotoView>

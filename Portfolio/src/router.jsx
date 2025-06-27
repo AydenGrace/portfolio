@@ -12,7 +12,11 @@ import WIP from "./pages/projects/subpages/WIP";
 import Restauration from "./pages/projects/subpages/Restauration";
 import Ambassador from "./pages/projects/subpages/Ambassador";
 import MotionOcean from "./pages/projects/subpages/MotionOcean";
+import PlayerBeer from "./pages/projects/subpages/PlayerBeer";
+
 import TimelinePage from "./pages/timeline/TimelinePage";
+import CoGite from "./pages/projects/subpages/CoGite";
+import AdapImmo from "./pages/projects/subpages/AdapImmo";
 
 export const router = createBrowserRouter([
   {
@@ -54,6 +58,18 @@ export const router = createBrowserRouter([
               {
                 path: "self-taught",
                 element: <SelfTaught />,
+              },
+              {
+                path: "player-beer",
+                element: <PlayerBeer />,
+              },
+              {
+                path: "co-gite",
+                element: <CoGite />,
+              },
+              {
+                path: "adap-immo",
+                element: <AdapImmo />,
               },
               {
                 path: "restauration",

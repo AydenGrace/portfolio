@@ -38,7 +38,7 @@
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//65849.webp",
     "title": "Player \"Beer\"",
     "categories": ["Identité graphique", "Wordpress", "SEO"],
-    "link": "work-in-progress",
+    "link": "player-beer",
     "isExternalLink": false
   },
   {
@@ -73,7 +73,7 @@
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//adap_immo.webp",
     "title": "Adap Immo",
     "categories": ["Logo"],
-    "link": "work-in-progress",
+    "link": "adap-immo",
     "isExternalLink": false
   },
   {
@@ -87,7 +87,7 @@
     "img": "https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//cogite.webp",
     "title": "Co'Gîte",
     "categories": ["Identité graphique", "Fullstack"],
-    "link": "work-in-progress",
+    "link": "co-gite",
     "isExternalLink": false
   },
   {
