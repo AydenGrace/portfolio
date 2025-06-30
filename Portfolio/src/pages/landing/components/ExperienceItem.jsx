@@ -2,7 +2,7 @@ import React from "react";
 import style from "./ExperienceItem.module.scss";
 
 export default function ExperienceItem({isGrade = false, exp}) {
-  console.log(exp);
+  // console.log(exp);
 
   const month = [
     "Janvier",
@@ -42,7 +42,7 @@ export default function ExperienceItem({isGrade = false, exp}) {
 
   const timeBetweenDates = (start, end) => {
     let diffDays = dateDiffInDays(start, end);
-    console.log(diffDays);
+    // console.log(diffDays);
 
     let msg = "- ";
 

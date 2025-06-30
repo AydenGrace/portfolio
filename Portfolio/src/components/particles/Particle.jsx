@@ -1,6 +1,6 @@
-import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
-import React, { useEffect, useMemo, useState } from "react";
+import Particles, {initParticlesEngine} from "@tsparticles/react";
+import {loadSlim} from "@tsparticles/slim";
+import React, {useEffect, useMemo, useState} from "react";
 
 export default function Particle() {
   const [init, setInit] = useState();
@@ -19,7 +19,7 @@ export default function Particle() {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);
   };
 
   const options = useMemo(() => ({
