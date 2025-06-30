@@ -18,6 +18,7 @@ import TimelinePage from "./pages/timeline/TimelinePage";
 import CoGite from "./pages/projects/subpages/CoGite";
 import AdapImmo from "./pages/projects/subpages/AdapImmo";
 import CivilIT from "./pages/projects/subpages/CivilIT";
+import Smiley from "./pages/projects/subpages/Smiley";
 
 export const router = createBrowserRouter([
   {
@@ -87,6 +88,10 @@ export const router = createBrowserRouter([
               {
                 path: "motion-ocean",
                 element: <MotionOcean />,
+              },
+              {
+                path: "smiley-by-risus",
+                element: <Smiley />,
               },
             ],
           },

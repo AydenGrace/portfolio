@@ -9,7 +9,7 @@ export default function Restauration() {
     <div className="w-full min-h-screen flex flex-col z-10 gap-4">
       <div className="h-[50vh] w-full bg-[url('https://gahtfyaqzgunbhepuitf.supabase.co/storage/v1/object/public/portfolio//Wedding_before.webp')] bg-top bg-cover bg-no-repeat"></div>
       <div className="flex flex-col md:flex-row w-full p-4 px-[10%] gap-4 relative">
-        <div className="flex w-1/2 flex-col gap-4">
+        <div className="flex w-full flex-col gap-4">
           <Link
             className="flex gap-2 items-center text-secondary border-b-1 border-secondary !cursor-pointer w-fit pr-1"
             to={"/projects"}
@@ -43,7 +43,7 @@ export default function Restauration() {
             mes modifications.
           </p>
         </div>
-        <div className="flex w-1/2 h-full items-center justify-center">
+        <div className="flex w-full h-full items-center justify-center">
           <div className="flex h-full w-full max-w-[500px]">
             <ReactCompareImage
               sliderPositionPercentage={0.5}

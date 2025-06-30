@@ -16,8 +16,8 @@ export default function TimelinePage() {
   const Parcours = [
     {
       title: "Concepteur Développeur d'Application",
-      company: "SOFIP - Verquigneul - 7 mois",
-      desc: "Entrée en formation continue. Titre certifiant de niveau 6.",
+      company: "SOFIP - Verquigneul - En cours",
+      desc: "Entrée en formation continue. Titre certifiant de niveau 6. Conception de projets. Rédaction de cahier des charges. Maquettage. Développement fullstack.",
       icon: <IoSchoolOutline size={24} color="#d8ca98" />,
       date: new Date("03/12/2025"),
     },
@@ -31,7 +31,7 @@ export default function TimelinePage() {
     {
       title: "MS Développement JAVA/J2EE",
       company: "AFPA - Roubaix - 3 mois",
-      desc: "Entrée en formation continue. Titre de professionnalisation.",
+      desc: "Entrée en formation continue. Titre de professionnalisation. Réalisation de backends en JAVA (Spring Boot). Gestion de bases de données PostreSQL via Docker.",
       icon: <IoSchoolOutline size={24} color="#d8ca98" />,
       date: new Date("12/12/2024"),
     },
@@ -45,7 +45,7 @@ export default function TimelinePage() {
     {
       title: "Développeur Web et Web Mobile",
       company: "SOFIP - Verquigneul - 8 mois",
-      desc: "Entrée en formation continue. Titre certifiant de niveau 5.",
+      desc: "Entrée en formation continue. Titre certifiant de niveau 5. Création de sites web. Développements fullstack. Gestion de bases de données.",
       icon: <IoSchoolOutline size={24} color="#d8ca98" />,
       date: new Date("02/28/2024"),
     },
@@ -66,34 +66,34 @@ export default function TimelinePage() {
     {
       title: "Concepteur Designer UI/UX",
       company: "ADAPECO - Douai - 9 mois",
-      desc: "Entrée en formation continue. Titre certifiant de niveau 6.",
+      desc: "Entrée en formation continue. Titre certifiant de niveau 6. Création d'identités graphiques. Création de logo. Gestion de réseaux sociaux. Montages vidéo. Maquettage. Création de sites e-commerce avec Wordpress.",
       icon: <IoSchoolOutline size={24} color="#d8ca98" />,
       date: new Date("06/10/2023"),
     },
     {
       title: "Game Master Polyvalent - CDI",
       company: "ORBIS Aventures - Tourcoing - 6 mois",
-      desc: "Accueil de client. Gestion d'escapes games. Gestion de ludothèque. Conseils client. Entretien des locaux.",
+      desc: "Accueil de clients. Gestion d'escapes games. Gestion de ludothèque. Conseils clients. Entretien des locaux.",
       icon: <MdOutlineLockOpen size={24} color="#d8ca98" />,
       date: new Date("11/10/2022"),
     },
     {
       title: "Ambassadeur de l'Égalité - Service Civique",
       company: "CCAS - Roubaix - 8 mois",
-      desc: "Assistance à la création du projet. Animation de stand. Création de jeux de sociétés. Lutte contre les discriminations et les inégalités.",
+      desc: "Assistance à la création du projet. Animation de stands. Création de jeux de sociétés. Lutte contre les discriminations et les inégalités.",
       icon: <FaEquals size={24} color="#d8ca98" />,
       date: new Date("03/01/2022"),
     },
     {
       title: "Game Master - CDDU",
       company: "Get Out! - Lille - 2 ans",
-      desc: "Accueil de client. Gestion d'escape game. Entretien des locaux. Incarnation de personnages (théâtre).",
+      desc: "Accueil de clients. Gestion de salles d'escape game. Entretien des locaux. Incarnation de personnages (théâtre).",
       icon: <MdOutlineLockOpen size={24} color="#d8ca98" />,
       date: new Date("08/01/2020"),
     },
     {
       title: "Télévendeur - CDI",
-      company: "Centre européen de Formation - Lille - 1 mois",
+      company: "Centre Européen de Formation - Lille - 1 mois",
       desc: "Démarchage téléphonique. Vente de formations.",
       icon: <TfiHeadphoneAlt size={24} color="#d8ca98" />,
       date: new Date("07/01/2020"),
@@ -101,7 +101,7 @@ export default function TimelinePage() {
     {
       title: "Analyste Programmeur Industriel",
       company: "HEPL - Liège",
-      desc: "Date du diplôme. Parcours scolaire équivalent à une license. Développement de logiciels. Traitement d'image, Gestion de bases de données. Gestion d'automates.",
+      desc: "Date du diplôme. Parcours scolaire équivalent à une licence. Développement de logiciels. Traitement d'image. Gestion de réseaux. Gestion de bases de données. Gestion d'automates.",
       icon: <IoSchoolOutline size={24} color="#d8ca98" />,
       date: new Date("06/01/2019"),
     },

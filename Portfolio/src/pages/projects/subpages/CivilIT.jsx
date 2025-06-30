@@ -70,6 +70,10 @@ export default function CivilIT() {
             aux autres équipes qui ont repris le projet après nous de s'y
             retrouver le plus facilement possible.
           </p>
+          <p>
+            Au vu de la nature du projet, je ne peux malheureusement rien
+            montrer de plus que le logo ainsi que des éléments de la maquette.
+          </p>
         </div>
         <div className="flex w-full items-center justify-center"></div>
       </div>
