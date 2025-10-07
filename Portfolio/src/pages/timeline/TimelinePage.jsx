@@ -16,7 +16,7 @@ export default function TimelinePage() {
   const Parcours = [
     {
       title: "Concepteur Développeur d'Application",
-      company: "SOFIP - Verquigneul - En cours",
+      company: "SOFIP - Verquigneul - 8 mois",
       desc: "Entrée en formation continue. Titre certifiant de niveau 6. Conception de projets. Rédaction de cahier des charges. Maquettage. Développement fullstack.",
       icon: <IoSchoolOutline size={24} color="#d8ca98" />,
       date: new Date("03/12/2025"),
@@ -71,6 +71,13 @@ export default function TimelinePage() {
       date: new Date("06/10/2023"),
     },
     {
+      title: "Animateur Événementiel - Bénévole",
+      company: "Chasse aux Reliques - Belgique - En cours",
+      desc: "Gestion d'événements. Création d'énigmes. Animation d'événements. Accueil et gestion de participants.",
+      icon: <MdOutlineEventAvailable size={24} color="#d8ca98" />,
+      date: new Date("04/01/2023"),
+    },
+    {
       title: "Game Master Polyvalent - CDI",
       company: "ORBIS Aventures - Tourcoing - 6 mois",
       desc: "Accueil de clients. Gestion d'escapes games. Gestion de ludothèque. Conseils clients. Entretien des locaux.",
@@ -103,11 +110,18 @@ export default function TimelinePage() {
       company: "HEPL - Liège",
       desc: "Date du diplôme. Parcours scolaire équivalent à une licence. Développement de logiciels. Traitement d'image. Gestion de réseaux. Gestion de bases de données. Gestion d'automates.",
       icon: <IoSchoolOutline size={24} color="#d8ca98" />,
-      date: new Date("06/01/2019"),
+      date: new Date("09/01/2019"),
+    },
+    {
+      title: "Développeur C# .NET - Stagiaire",
+      company: "ALX System - Liège - 6 mois",
+      desc: "Création d'un plugin d'une application permettant de cartographier une zone donnée à l'aide d'un drone.",
+      icon: <IoSchoolOutline size={24} color="#d8ca98" />,
+      date: new Date("01/01/2019"),
     },
     {
       title: "Animateur Événementiel - Bénévole",
-      company: "Chasse aux Reliques - Belgique - En cours",
+      company: "Poudlard, Plus qu'une maison - Belgique - 3 ans",
       desc: "Gestion d'événements. Création d'énigmes. Animation d'événements. Accueil et gestion de participants.",
       icon: <MdOutlineEventAvailable size={24} color="#d8ca98" />,
       date: new Date("09/23/2018"),
